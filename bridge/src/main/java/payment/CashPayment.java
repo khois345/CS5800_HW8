@@ -2,8 +2,8 @@ package payment;
 
 import channel.*;
 
-public class CashOnDeliveryPayment extends PaymentNotification {
-	public CashOnDeliveryPayment(NotificationChannel channel, String customerName, double amount) {
+public class CashPayment extends PaymentNotification {
+	public CashPayment(NotificationChannel channel, String customerName, double amount) {
 		super(channel, customerName, amount);
 	}
 

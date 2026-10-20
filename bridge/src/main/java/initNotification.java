@@ -10,8 +10,8 @@ public class initNotification {
 		PaymentNotification[] partOneNotifications = {
 			new OnlinePaymentNotification(email, "Khoi", 59.99, "Credit Card"),
 			new OnlinePaymentNotification(sms, "Emily", 119.49, "PayPal"),
-			new CashOnDeliveryPayment(email, "Tam", 35.00),
-			new CashOnDeliveryPayment(sms, "Chloe", 18.75)
+			new CashPayment(email, "Tam", 35.00),
+			new CashPayment(sms, "Chloe", 18.75)
 		};
 
 		for (PaymentNotification notification : partOneNotifications) {
