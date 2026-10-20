@@ -31,5 +31,16 @@ public class initNotification {
 			notification.sendNotification();
 			System.out.println();
 		}
+
+		// Part 3
+		PaymentNotification[] partThreeNotifications = {
+			new OnlinePaymentNotification(push, "Khoi", 42.00, "PayPal"),
+			new CashPayment(push, "Emily", 99.94)
+		};
+
+		for (PaymentNotification notification : partThreeNotifications) {
+			notification.sendNotification();
+			System.out.println();
+		}
 	}
 }
