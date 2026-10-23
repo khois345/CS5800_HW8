@@ -13,6 +13,14 @@ public class ToppingDecoratorTest {
 	}
 
 	@Test
+	public void nullFoodItemOnlyCountsTopping() {
+		FoodItem ketchup = new Ketchup(null);
+
+		assertEquals("Ketchup", ketchup.getDescription());
+		assertEquals(0.25, ketchup.getCost(), 0.001);
+	}
+
+	@Test
 	public void getDescriptionAddsEachTopping() {
 		FoodItem hotDog = new Onions(new Cheese(new Ketchup(new HotDog())));
 
