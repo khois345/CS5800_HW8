@@ -11,13 +11,11 @@ public class Onions extends ToppingDecorator {
 
 	@Override
 	public String getName() {
-//		return "Onions";
-		return null;
+		return "Onions";
 	}
 
 	@Override
 	public double getPrice() {
-//		return PRICE;
-		return 0;
+		return PRICE;
 	}
 }

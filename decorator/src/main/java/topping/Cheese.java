@@ -11,13 +11,11 @@ public class Cheese extends ToppingDecorator {
 
 	@Override
 	public String getName() {
-//		return "Cheese";
-		return null;
+		return "Cheese";
 	}
 
 	@Override
 	public double getPrice() {
-//		return PRICE;
-		return 0;
+		return PRICE;
 	}
 }

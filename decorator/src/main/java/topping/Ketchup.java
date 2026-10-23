@@ -11,13 +11,11 @@ public class Ketchup extends ToppingDecorator {
 
 	@Override
 	public String getName() {
-//		return "Ketchup";
-		return null;
+		return "Ketchup";
 	}
 
 	@Override
 	public double getPrice() {
-//		return PRICE;
-		return 0;
+		return PRICE;
 	}
 }
