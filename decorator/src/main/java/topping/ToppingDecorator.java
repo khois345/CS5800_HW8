@@ -10,20 +10,17 @@ public abstract class ToppingDecorator implements FoodItem {
 	}
 
 	public FoodItem getFoodItem() {
-//		return foodItem;
-		return null;
+		return foodItem;
 	}
 
 	@Override
 	public String getDescription() {
-//		return foodItem.getDescription() + " + " + getName();
-		return null;
+		return foodItem.getDescription() + " + " + getName();
 	}
 
 	@Override
 	public double getCost() {
-//		return foodItem.getCost() + getPrice();
-		return 0;
+		return foodItem.getCost() + getPrice();
 	}
 
 	// other methods
