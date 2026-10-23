@@ -28,7 +28,7 @@ public class OrderTest {
 	}
 
 	@Test
-	public void printShowsItemsAndTotal() {
+	public void printItemsAndTotal() {
 		Order order = new Order();
 		order.addItem(new Ketchup(new Fries()));
 
@@ -43,6 +43,6 @@ public class OrderTest {
 
 		String printed = output.toString();
 		assertTrue(printed.contains("1. Fries + Ketchup - $5.92"));
-		assertTrue(printed.contains("Total: $5.92"));
+		assertTrue(printed.contains("Total cost: $5.92"));
 	}
 }
