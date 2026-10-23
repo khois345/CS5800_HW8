@@ -5,13 +5,11 @@ public class HotDog implements FoodItem {
 
 	@Override
 	public String getDescription() {
-//		return "Hot Dog";
-		return null;
+		return "Hot Dog";
 	}
 
 	@Override
 	public double getCost() {
-//		return PRICE;
-		return 0;
+		return PRICE;
 	}
 }
